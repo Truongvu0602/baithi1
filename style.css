@@ -1,0 +1,19 @@
+body {
+  color: red;
+}
+.list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+ul li {
+  padding: 40px;
+}
+
+.row {
+  margin-top: 40px;
+  grid-template-columns: 20% 40% 20%;
+}
+.col {
+  border: black solid 1px;
+}
